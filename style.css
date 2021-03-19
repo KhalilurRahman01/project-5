@@ -1,0 +1,42 @@
+body{
+  margin:0;
+  background-image:url(image/map.jpg);
+
+    
+}
+.head{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+.head li{
+  float: left;
+
+}
+.head li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+}
+.head li a:hover:not(.head1) {background-color: #111;}
+
+.head li a.head1 {background-color: #4CAF50;}
+
+.head li .right {
+  float: right;
+}
+h2{
+  background-color:green;
+  color:white;
+  padding:20px;   
+}
+
+@media screen and (max-width: 600px) {
+  .head li a.right, 
+  .head li{float: none;}
+}
